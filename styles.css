@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px; /* optional: space between items */
+}
+
+.container button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.winnerDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
